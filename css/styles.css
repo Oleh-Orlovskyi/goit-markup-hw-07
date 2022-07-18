@@ -657,7 +657,7 @@ position: relative;
 }
 
 
-.subscribe {
+.secbg__subscribe {
 padding-top: 30px;
 padding-bottom: 30px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -665,7 +665,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 }
 
 
-.team
+.secbg__item
 {
 font-weight: 500;
 font-size: 16px;
@@ -676,7 +676,7 @@ text-align: center;
 margin-bottom: 10px;
 }
 
-.prof
+.secbg__prof
 {
     font-weight: 400;
     font-size: 16px;
@@ -689,7 +689,7 @@ margin-bottom: 10px;
     
 }
 
-.bg__team
+.secbg__team
 {
     background-color: var(--white-bg-color);
     --items: 4;
@@ -725,7 +725,7 @@ margin-bottom: 10px;
     color: var(--white-fill-color);
     background-color: var(--blue-fill-color);}
 
-.social-media-link {
+.social-media__link {
        display: flex;
        align-items: center;
        justify-content: center;
@@ -737,23 +737,23 @@ margin-bottom: 10px;
 }
 
 
-.social-media-item:not(:last-child) {
+.social-media__item:not(:last-child) {
     margin-right: 10px;
 }
 
 
-.social-media-link:hover,
-.social-media-link:focus {
+.social-media__link:hover,
+.social-media__link:focus {
 color: var(--white-fill-color);
 background-color: var(--blue-fill-color);
 }
 
-.social-media-icon {
+.social-media__icon {
   fill: currentColor;
 }
 
 
-.social-media-item {
+.social-media__item {
  
    
 }
