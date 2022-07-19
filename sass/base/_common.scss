@@ -1,0 +1,12 @@
+body {
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--dark-txt-color);
+
+    &.no-scroll {
+        overflow: hidden;
+        }
+}
+

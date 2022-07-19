@@ -1,0 +1,124 @@
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    &-cont {
+            align-items: center;
+            margin-left: auto;
+            padding-left: 0;
+        }
+
+& .item-tel:last-child {
+    margin-right: 0;
+}
+
+}
+
+
+
+.header-bg {
+    background-color: var(--white-bg-color);
+    border-bottom: 1px solid #ECECEC;
+
+}
+
+.logo-header {
+
+    font-family: 'Raleway';
+    color: var(--blue-txt-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    word-spacing: -0.29em;
+    margin-right: 93px;
+
+}
+
+.logo-header-part-2 {
+    color: var(--black-txt-color);
+
+}
+
+.nav {
+    display: flex;
+    margin-left: 0;
+}
+
+.page-nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+
+& .item:last-child {
+        margin-right: 0;
+    }
+
+}
+
+.item {
+    margin-right: 50px;
+
+}
+
+
+
+.anchor {
+    display: block;
+    color: var(--dark-txt-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color var(--anim);
+
+    &:hover,
+    &:focus {
+    color: var(--blue-txt-color);
+    }
+
+}
+
+.current {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--blue-txt-color);
+
+    &::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 4px;
+            bottom: 0;
+            left: 0;
+            display: inline-block;
+            background-color: var(--blue-bg-color);
+            border-radius: 2px;
+    
+        }
+}
+
+.mail {
+    fill: var(--grayeness-fill-color);
+    margin-right: 10px;
+    margin-bottom: -2px;
+    transition: color var(--anim), fill var(--anim);
+}
+
+.tel {
+
+    fill: var(--grayeness-fill-color);
+    margin-right: 10px;
+    margin-bottom: -2px;
+    transition: color var(--anim), fill var(--anim);
+
+}
+
+
+
