@@ -120,6 +120,7 @@ img {
 .btn-filtr {
   display: block;
   padding: 8px 22px;
+  border-radius: 4px;
   border: none;
   text-align: center;
   font-size: 16px;
@@ -134,8 +135,6 @@ img {
   background-color: var(--blue-bg-color);
   border: none;
   border-radius: 4px;
-  font-weight: 700;
-  line-height: 1.88;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,6 +142,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--white-txt-color);
 }
@@ -197,9 +199,6 @@ img {
 
 .btn-submit {
   cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,6 +209,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--white-txt-color);
   background-color: var(--blue-bg-color);
@@ -302,8 +304,8 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--dark-txt-color);
 }
 
@@ -326,16 +328,17 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 50px;
 }
 
 .contacts {
   color: var(--gray-txt-color);
   font-weight: 500;
-  letter-spacing: 0.02em;
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
   -webkit-transition: color var(--anim);
   transition: color var(--anim);
@@ -683,6 +686,7 @@ textarea {
   display: block;
   color: var(--dark-txt-color);
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -710,8 +714,8 @@ textarea {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
@@ -824,9 +828,10 @@ textarea {
 }
 
 .our-team {
+  text-align: center;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -879,10 +884,10 @@ textarea {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  letter-spacing: 0.03em;
   background-color: var(--darkness-bg-color);
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -969,6 +974,7 @@ textarea {
 
 .footer-contacts-mail, .footer-contacts-tel {
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--whitness-txt-color);
@@ -979,6 +985,7 @@ textarea {
 .logo-footer {
   font-family: "Raleway";
   color: var(--blue-txt-color);
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -1000,7 +1007,7 @@ textarea {
 
 .address-style {
   font-weight: 400;
-  font-style: normal;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-txt-color);
@@ -1085,6 +1092,7 @@ textarea {
 }
 
 .projects {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
