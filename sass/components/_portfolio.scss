@@ -1,0 +1,33 @@
+.port-list
+{
+   
+justify-content: center;
+min-width: 611px;
+padding-left: 0;
+padding-right: 0;
+margin-bottom: 50px;
+margin-top: 0;
+  
+}
+
+.portfolio-item {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    --items: 9;
+    margin-left: 8px;
+    
+    }
+
+    .border 
+{
+
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
+padding: 20px 24px;
+
+
+}
+
