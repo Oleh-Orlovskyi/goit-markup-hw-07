@@ -62,13 +62,13 @@ margin-bottom: 0;
 
 .address-style
 {
-
-@include fonts(400, 14px, 1.71, 0.03em);
 color: var(--white-txt-color);
+@include fonts(400, 14px, 1.71, 0.03em);
 text-decoration: none;
 margin-left: 0;;
 list-style: none;
 transition: color var(--anim);
+font-style: normal;
     
 &:hover,
 &:focus {

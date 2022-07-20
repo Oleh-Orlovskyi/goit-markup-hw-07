@@ -1006,16 +1006,17 @@ textarea {
 }
 
 .address-style {
+  color: var(--white-txt-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-txt-color);
   text-decoration: none;
   margin-left: 0;
   list-style: none;
   -webkit-transition: color var(--anim);
   transition: color var(--anim);
+  font-style: normal;
 }
 .address-style:hover, .address-style:focus {
   color: var(--blue-txt-color);
