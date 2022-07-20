@@ -1,8 +1,5 @@
-@import "./utils/_vars";
+@import "./utils/variables";
 
-@import "./base/_common";
-@import "./base/reset";
-@import "./base/card-set";
 
 @import "./components/_buttons";
 @import "./components/section";
@@ -12,9 +9,6 @@
 @import "./components/contacts";
 @import "./components/overlay";
 @import "./components/modal";
+@import "./components/header";
 
 
-
-@import "./layouts/_header";
-@import "./layouts/about";
-@import "./layouts/section-about";
