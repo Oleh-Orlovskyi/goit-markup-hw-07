@@ -159,17 +159,11 @@ textarea {
 
     .form-label {
     display: block;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+    @include fonts(400, 12px, 1.17, 0.01em);
     color: var(--gray-txt-color);
     
     &-check {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include fonts(400, 14px, 1.71, 0.03em);
     display: flex;
     color: var(--gray-txt-color);
     align-items: center;
@@ -198,10 +192,7 @@ textarea {
     }
 
     .policy {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include fonts(400, 14px, 1.71, 0.03em);
     text-decoration-line: underline;
     color: var(--blue-txt-color);
     cursor: pointer;

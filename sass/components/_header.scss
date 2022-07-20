@@ -64,10 +64,7 @@ transition: color var(--anim), fill var(--anim);
 
     font-family: 'Raleway';
     color: var(--blue-txt-color);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    @include fonts(700, 26px, 1.19, 0.03em);
     text-decoration: none;
     word-spacing: -0.29em;
     margin-right: 93px;
@@ -82,9 +79,7 @@ transition: color var(--anim), fill var(--anim);
 .anchor {
     display: block;
     color: var(--dark-txt-color);
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include fonts(500, 14px, 1.14, 0.02em);
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;

@@ -7,11 +7,8 @@
     align-items: center;
     max-width: 696px;
     color: var(--white-txt-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    @include fonts(900, 44px, 1.36, 0.06em);
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;

@@ -97,8 +97,8 @@ img {
 }
 
 .button {
-  font-weight: 500;
   font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
@@ -120,10 +120,10 @@ img {
 .btn-filtr {
   display: block;
   padding: 8px 22px;
-  font-size: 16px;
-  line-height: 1.62;
   border: none;
   text-align: center;
+  font-size: 16px;
+  line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--dark-txt-color);
 }
@@ -750,6 +750,7 @@ textarea {
 }
 .benefits__text {
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: none;
@@ -783,10 +784,10 @@ textarea {
   position: relative;
 }
 .section-about__title {
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -799,11 +800,11 @@ textarea {
 }
 
 .about {
+  text-align: center;
+  background-color: var(--white-bg-color);
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
-  background-color: var(--white-bg-color);
 }
 .about-text {
   margin-bottom: 50px;
