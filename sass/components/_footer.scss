@@ -1,0 +1,91 @@
+
+
+.footer-union {
+    display: flex;
+    
+}
+
+
+.footer-bg
+{
+    
+padding-bottom: 60px;
+ padding-top: 60px;
+ background-color:var(--darkness-bg-color)
+ 
+ 
+}
+
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+
+
+
+
+
+.smi-footer {
+    fill: #ffffff;
+    }
+
+    .footer-contacts-mail, .footer-contacts-tel
+
+{
+    
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--whitness-txt-color);
+    font-style: normal;
+    list-style: none;
+    }
+
+.logo-footer
+{
+font-family: 'Raleway';
+color: var(--blue-txt-color);
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;
+word-spacing: -0.29em;
+}
+
+
+
+.logo-footer-part-2 
+{
+       color: var(--white-txt-color);
+       
+}
+
+
+.points  {
+
+    display: block;
+    padding-left: 0;
+    width: 231px;
+    margin-top: 20px;
+    margin-bottom: 0;  
+        
+}
+
+.address-style
+{
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-txt-color);
+    text-decoration: none;
+    margin-left: 0;;
+    list-style: none;
+    transition: color var(--anim);
+    
+    &:hover,
+    &:focus {
+        color: var(--blue-txt-color);
+      
+    }
+}
