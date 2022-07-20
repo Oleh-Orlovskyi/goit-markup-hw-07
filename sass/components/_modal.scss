@@ -11,7 +11,7 @@
     padding-right: 40px;
     padding-top: 50px;
     padding-bottom: 30px;
-}
+    }
 
 .modal-close {
     position: absolute;
@@ -33,7 +33,7 @@
     &:hover,
     &:focus {
     fill: var(--blue-fill-color);}
-}
+    }
 
 
 .backdrop {
@@ -48,7 +48,7 @@
     pointer-events: initial;
     transition: opacity var(--anim), visibility var(--anim);
     background-color: rgba(0, 0, 0, 0.1);
-}
+    }
 
 
 
@@ -56,7 +56,7 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+    }
 
 textarea {
     resize: none;
@@ -73,76 +73,75 @@ textarea {
     position: relative;
     
     &-check  {
-        display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
        
-       }
+    }
        
+    & input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 42px;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    }
     }
     
     
  
     .placeholder {
-        margin-bottom: 20px;
-        
-    }
-    
-    
-    .form-input-check:checked + .border-check {
-        fill: var(--blue-fill-color);
-        background-color: var(--blue-bg-color);
-        margin-right: 7px;
-        width: 16px;
-        outline: 1px solid var(--blue-bg-color);
-        outline-offset: -2px;
-        border-radius: 2px;
-        transition: background-color var(--anim);
+    margin-bottom: 20px;
         
     }
     
     
     
     .form-input {
-        display: block;
-        margin-top: 4px;
-        transition: border-color var(--anim);
+    display: block;
+    margin-top: 4px;
+    transition: border-color var(--anim);
+
+    &-check:checked+.border-check {
+    fill: var(--blue-fill-color);
+    background-color: var(--blue-bg-color);
+    margin-right: 7px;
+    width: 16px;
+    outline: 1px solid var(--blue-bg-color);
+    outline-offset: -2px;
+    border-radius: 2px;
+    transition: background-color var(--anim);
+
+    }
+
+
     }
     
     
     .textarea {
-        height: 120px;
-        padding: 12px 16px;
+    height: 120px;
+    padding: 12px 16px;
     }
 
 
-    .form-fields input {
-       padding-top: 12px;
-       padding-bottom: 12px;
-        padding-left: 42px;
-        width: 100%;
-        border: 1px solid rgba(33, 33, 33, 0.2);
-        border-radius: 4px;
-    }
-    
-    
-    
+     
     
     .icon-input {
-        position: absolute;
-        top: 50%;
-        left: 12px;
-        display: inline-block;
-        transition: fill var(--anim);
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    display: inline-block;
+    transition: fill var(--anim);
     }
     
     
     
     .form-fields textarea {
-        width: 100%;
-        border: 1px solid rgba(33, 33, 33, 0.2);
-        border-radius: 4px;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
     }
     
     .icon-agree {
@@ -150,10 +149,61 @@ textarea {
     align-items: center;
     margin-right: 7px;
        
-}
+    }
 
 
-.icon-rect {
+    .icon-rect {
     position: absolute;
-}
+    }
     
+
+    .form-label {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--gray-txt-color);
+    
+    &-check {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    display: flex;
+    color: var(--gray-txt-color);
+    align-items: center;
+    
+    }
+    
+    }
+    
+   
+
+    .form-fields input:hover,
+    .form-fields input:focus {
+    border-color: var(--blue-bg-color);
+    outline: none;
+    }
+        
+    .form-fields textarea:hover,
+    .form-fields textarea:focus {
+    border-color: var(--blue-fill-color);
+    outline: none;
+    }
+        
+    .form-fields:hover .icon-input,
+    .form-fields:focus-within .icon-input {
+    fill: var(--blue-fill-color);
+    }
+
+    .policy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: var(--blue-txt-color);
+    cursor: pointer;
+    margin-left: 3px;
+    }

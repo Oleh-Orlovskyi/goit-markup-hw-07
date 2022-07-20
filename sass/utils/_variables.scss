@@ -76,10 +76,7 @@ img {
     padding: 0;
 }
 
-.portfolio-link {
-    text-decoration: none;
 
-}
 
 .no-points {
     list-style: none;
@@ -87,51 +84,6 @@ img {
 
 }
 
-
-
-
-.header-bg {
-    background-color: var(--white-bg-color);
-    border-bottom: 1px solid #ECECEC;
-
-}
-
-.logo-header {
-
-    font-family: 'Raleway';
-    color: var(--blue-txt-color);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    word-spacing: -0.29em;
-    margin-right: 93px;
-
-}
-
-.logo-header-part-2 {
-    color: var(--black-txt-color);
-
-}
-
-.anchor {
-    display: block;
-    color: var(--dark-txt-color);
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    transition: color var(--anim);
-
-    &:hover,
-    &:focus {
-    color: var(--blue-txt-color);
-    }
-
-}
 
 .current {
     position: relative;
@@ -141,160 +93,25 @@ img {
     color: var(--blue-txt-color);
 
     &::after {
-            position: absolute;
-            content: "";
-            width: 100%;
-            height: 4px;
-            bottom: 0;
-            left: 0;
-            display: inline-block;
-            background-color: var(--blue-bg-color);
-            border-radius: 2px;
-    
-        }
-}
-
-
-
-
-
-
-
-
-
-
-
-.subscribe-label {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
     display: inline-block;
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 1.14;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
-     color: #FFFFFF;
-    margin-bottom: 20px;
-   
-   
- }
- 
- 
- .subscribe-input {
-     width: 358px;
-     padding-left: 16px;
-     padding-top: 15px;
-     padding-bottom: 13px;
-     margin: 0;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.25;
-     
-     align-items: center;
-     letter-spacing: 0.03em;
-     background-color: var(--darkness-bg-color);
-     color: rgba(255, 255, 255, 0.6);
- 
-     border: 1px solid rgba(255, 255, 255, 0.3);
-     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-     border-radius: 4px;
- }
-
- 
-
-
-
-
-
-
-
-
-.portfolio-bg
-{  
-    background-color: var(--white-bg-color);       
-    transition: color var(--anim), background-color var(--anim), box-shadow var(--anim);
-
-    &:hover,
-&:focus {
-   
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
-}
-   
-}
-
-.projects
-{
-    font-size: 18px;
-    line-height: 2.00;
-    letter-spacing: 0.06em;
-    margin-bottom: 4px;
-    color: var(--dark-txt-color);
+    background-color: var(--blue-bg-color);
+    border-radius: 2px;
     
-}
-
-.project-type
-{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: var(--gray-txt-color);
-   
-}
-
-.form-label {
-    display:block;
-    font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.01em;
-        color: var(--gray-txt-color);  
-        
-        
-}
-
-.form-label-check {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    display: flex;
-    color: var(--gray-txt-color);
-    align-items: center;
-   
+    }
 }
 
 
 .checkbox {
 -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    position: absolute;
+-moz-appearance: none;
+appearance: none;
+position: absolute;
 }
 
-.policy {
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        text-decoration-line: underline;
-        color: var(--blue-txt-color);
-        cursor: pointer;
-       margin-left: 3px;
-}
 
-.form-fields input:hover, 
-.form-fields input:focus {
-    border-color: var(--blue-bg-color);
-    outline:none;
-}
-
-.form-fields textarea:hover,
-.form-fields textarea:focus  {
-    border-color: var(--blue-fill-color);
-    outline: none;
-}
-
-.form-fields:hover .icon-input,
-.form-fields:focus-within .icon-input {
-    fill: var(--blue-fill-color);
-   }

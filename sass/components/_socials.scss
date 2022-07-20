@@ -3,14 +3,14 @@
     justify-content: center;
 
 &__link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: var(--gray-fill-color);
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        transition: color var(--anim), background-color var(--anim);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-fill-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: color var(--anim), background-color var(--anim);
     }
 
 &__item:not(:last-child) {
